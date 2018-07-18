@@ -367,6 +367,55 @@ body{
     color:#fff;
 
 }
+/*------------------------------------
+        estilo paginas nosotros
+------------------------------------*/
+.paginas-internas .bienvenidos{
+    height: 50vh;
+}
+
+.paginas-internas .ruta{
+    background: $principal;
+    color: #fff;
+    
+}
+.paginas-internas .ruta a{
+    color: #fff;
+    text-decoration: underline;
+    
+    
+}
+
+.paginas-internas .ruta a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginas-internas .panel .panel-heading{
+    font-size: 1.2rem;
+}
+
+.paginas-internas .card .card-header{
+    padding: 0;
+
+}
+.paginas-internas .card .card-header .btn-link{
+    background: $principal;
+    color: #fff;
+    display: block !important;
+    padding: .8rem;
+    border-radius: 5px;
+    transition: all .5s ease;
+
+}
+
+.paginas-internas .card .card-header .btn-link:hover{
+    background: $secundario;
+    color: #fff;
+
+}
+
+
 
 /*------------------------------------
         Media Queries
