@@ -124,13 +124,15 @@ body{
 .texto-encabezado .display-4{
     margin-top: 4.5rem;
 }
+.texto-encabezado .btn-primary{
+    margin-top: 1rem;
+}
 
 
 .btn-primary{
     color: #fff;
     background-color: $principal;
     border-color: transparent;
-    margin-top: 1rem;
     transition: all .5s ease;
 }
 
@@ -415,6 +417,37 @@ body{
 
 }
 
+/*------------------------------------
+        estilo paginas serivicos
+------------------------------------*/
+.paginas-internas .lista-servicios{
+    background: $secundario;
+}
+
+.paginas-internas .lista-servicios .item-servicios{
+    background: #fff;
+    text-align: center;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.paginas-internas .lista-servicios .item-servicios .fa{
+    font-size: 6rem;
+    color: $principal;
+    margin-bottom: 1rem;
+    transition: all 1s ease;
+}
+
+.paginas-internas .lista-servicios .item-servicios .fa:hover{
+    transform: rotatey(360deg);
+    transform-style: preserve-3d;
+}
+
+.modal .modal-dialog .modal-content .modal-body .col-md-4 img{
+    display: block;
+}
 
 
 /*------------------------------------
@@ -512,9 +545,22 @@ body{
         width: 100%;
     }
 
-    .btn-outline-secondary{
+    .servicios .btn-outline-secondary{
         margin-top: auto;
     }
+
+    .paginas-internas .lista-servicios .col-md-4{
+        display: flex; 
+
+    }
+    .paginas-internas .lista-servicios .item-servicios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paginas-internas .lista-servicios .item-servicios .btn-primary{
+        margin-top: auto;
+    }   
     
 }
 

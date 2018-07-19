@@ -125,11 +125,13 @@ body {
 .texto-encabezado .display-4 {
   margin-top: 4.5rem; }
 
+.texto-encabezado .btn-primary {
+  margin-top: 1rem; }
+
 .btn-primary {
   color: #fff;
   background-color: #12AFAF;
   border-color: transparent;
-  margin-top: 1rem;
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
@@ -400,6 +402,36 @@ body {
   color: #fff; }
 
 /*------------------------------------
+        estilo paginas serivicos
+------------------------------------*/
+.paginas-internas .lista-servicios {
+  background: #FFB31A; }
+
+.paginas-internas .lista-servicios .item-servicios {
+  background: #fff;
+  text-align: center;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem; }
+
+.paginas-internas .lista-servicios .item-servicios .fa {
+  font-size: 6rem;
+  color: #12AFAF;
+  margin-bottom: 1rem;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.paginas-internas .lista-servicios .item-servicios .fa:hover {
+  -webkit-transform: rotatey(360deg);
+          transform: rotatey(360deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d; }
+
+.modal .modal-dialog .modal-content .modal-body .col-md-4 img {
+  display: block; }
+
+/*------------------------------------
         Media Queries
 ------------------------------------*/
 @media (min-width: 768px) {
@@ -507,7 +539,24 @@ body {
   .servicios p {
     width: 100%; }
 
-  .btn-outline-secondary {
+  .servicios .btn-outline-secondary {
+    margin-top: auto; }
+
+  .paginas-internas .lista-servicios .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  .paginas-internas .lista-servicios .item-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .paginas-internas .lista-servicios .item-servicios .btn-primary {
     margin-top: auto; } }
 @media (min-width: 992px) {
   html {
