@@ -25,7 +25,7 @@
 
 <body>
     <section class="bienvenidos">
-        <header class="encabezado navbar fixed-top" role="banner">
+        <header class="encabezado navbar fixed-top" role="banner" id="encabezado">
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="images/logo.svg" alt="Logo del sitio">
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="flecha-baja text-center">
-            <a href="#agencia">
+            <a data-scroll href="#agencia">
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
             </a>
         </div>
@@ -251,7 +251,7 @@
             </ul>
         </div>
     </footer>
-    <a href="#" class="ir-arriba">
+    <a href="#encabezado" class="ir-arriba">
         <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
     </a>
     <!-- carga de archivos js -->
@@ -260,6 +260,11 @@
     <!-- carga de owl carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+
+
+
     <script src="js/sitio.js"></script>
 
 

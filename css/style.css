@@ -9,6 +9,7 @@ body {
 .bienvenidos {
   background: url("../images/Fondo-encabezado.jpg") no-repeat center top;
   color: #fff;
+  background-attachment: fixed !important;
   /* hace que todo la imagen se muestre lo mejor posible*/
   background-size: cover;
   /* viewport height (el 100% de la pantalla del dispositivo) */
@@ -219,6 +220,7 @@ body {
 .servicios {
   background: url("../images/fondo-servicios.jpg") no-repeat center center;
   color: #fff;
+  background-attachment: fixed !important;
   /* hace que la imagen cubra completamente a la etiqueta (servicio) */
   background-size: cover; }
 
@@ -355,6 +357,7 @@ body {
   text-decoration: none;
   color: #12AFAF;
   line-height: 0;
+  display: none;
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
