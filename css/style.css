@@ -562,6 +562,10 @@ body {
   html {
     font-size: 16px; }
 
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+    background-size: cover; }
+
   .tu-mejor-eleccion ul li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -601,6 +605,10 @@ body {
     margin-right: 0; }
 
   .tu-mejor-eleccion ul li p {
-    font-size: .85rem; } }
+    font-size: .85rem; }
+
+  .servicios {
+    background: url(../images/fondo-servicios-grande.jpg) no-repeat center center;
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */

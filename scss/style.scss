@@ -567,10 +567,17 @@ body{
 @media(min-width:992px ){
     html{
         font-size: 16px;
+       
+    }
+    .bienvenidos{
+        background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+        // adapta a toda la etiqueta
+        background-size: cover;
     }
     .tu-mejor-eleccion ul li {
         display: flex;
         min-height: 7rem;
+        
     }
 
     .tu-mejor-eleccion ul li .fa {
@@ -601,6 +608,12 @@ body{
     .tu-mejor-eleccion ul li p{
         font-size: .85rem;
     }
+
+    .servicios {
+        background: url(../images/fondo-servicios-grande.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
 
     
 }
