@@ -25,7 +25,13 @@ body {
 .encabezado {
   background: #111111;
   color: #fff;
-  padding: 1rem 1rem; }
+  padding: 1rem 1rem;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.encabezado.fondo-menu {
+  background: #064e4e;
+  padding: 1rem 0rem; }
 
 .encabezado .container {
   display: -webkit-box;

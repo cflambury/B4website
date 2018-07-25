@@ -26,3 +26,19 @@ $(function () {
     });
 
 });
+
+
+/*---------------------------------
+   CABECERA ANIMADA
+ ----------------------------------*/
+$(window).scroll(function () {
+    debugger;
+    var nav = $('.encabezado');
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 80) {
+        nav.addClass("fondo-menu");
+    } else {
+        nav.removeClass("fondo-menu");
+    }
+});

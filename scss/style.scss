@@ -27,10 +27,18 @@ body{
     flex-direction: column;
     
 }
+
 .encabezado{
     background: $texto;
     color: #fff;
     padding: 1rem 1rem;
+    transition: all 1s ease;
+}
+
+// tomar en cuenta que tiene que estar junto si es que se va a usar Jquery para hacerlo fluido
+.encabezado.fondo-menu{
+    background: #064e4e;
+    padding: 1rem 0rem;
 }
 
 .encabezado .container{
