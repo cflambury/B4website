@@ -32,7 +32,7 @@ $(function () {
    CABECERA ANIMADA
  ----------------------------------*/
 $(window).scroll(function () {
-    debugger;
+
     var nav = $('.encabezado');
     var scroll = $(window).scrollTop();
 
